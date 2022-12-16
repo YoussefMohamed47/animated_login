@@ -39,7 +39,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "build/app/outputs/flutter-apk/*"
-          tag: v1.0.1
+          tag: v1.0.2
           token: ${{ secrets.TOKEN }}
 
 #
