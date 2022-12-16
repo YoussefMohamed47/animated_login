@@ -37,10 +37,10 @@ jobs:
       - run: flutter build apk --release
       - name: Push to Releases
         uses: ncipollo/release-action@v1
-          with:
-            artifacts: "build/app/outputs/flutter-apk/*"
-            tag: v1.0.1
-            token: ${{ secrets.TOKEN }}
+        with:
+          artifacts: "build/app/outputs/flutter-apk/*"
+          tag: v1.0.1
+          token: ${{ secrets.TOKEN }}
 
 #
 #    on:
